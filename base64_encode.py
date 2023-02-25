@@ -12,7 +12,7 @@ with open("password.txt") as f:
            b64_strings = b64_bytes.decode("ascii")
            #print(b64_strings)
            c.append(b64_strings)
-           with open("base64_password.txt", "w") as fi:
+           with open("base64_password1.txt", "w") as fi:
                print(('\n'.join(str(j) for j in c)),file=fi)
 
 
